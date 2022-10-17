@@ -13,19 +13,19 @@
   </head>
 
   <body>
-    <header>
-      <div class="container">
-      <nav>
+    <header class="head">
+      <div class="head-nav container">
+      <nav class="navigation">
         <a href="" class="logo"><span class="logo-first">Web</span><span class="logo-second">Studio</span></a>
-        <ul class="site-nav">
-          <li><a class="link current" href="./studio.html">Студія</a></li>
-          <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
-          <li><a class="link" href="">Контакти</a></li>
+        <ul class="nav-list">
+          <li class="list"><a class="nav-link link current" href="./studio.html">Студія</a></li>
+          <li class="list"><a class="nav-link link" href="./portfolio.html">Портфоліо</a></li>
+          <li class="list"><a class="nav-link link" href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="site-nav">
-        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link" href="tel:380961111111">+38 096 111 11 11</a></li>
+      <ul class="nav-contacts">
+        <li class="list"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="list"><a class="link" href="tel:380961111111">+38 096 111 11 11</a></li>
       </ul>
       </div>
     </header>
@@ -40,27 +40,31 @@
         <div class="container">
         <h2 class="visually-hidden">Наші особливості</h2>
         <ul class="features-list">
-          <li>
+
+          <li class="features-group">
             <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
+          
+          <li class="features-group">
             <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+
+          <li class="features-group">
             <h3 class="title">ПЛАНУВАННЯ</h3>
             <p class="text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+
+          <li class="features-group">
             <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="text">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -75,21 +79,21 @@
         <div class="container">
         <h2 class="about-title">Чим ми займаємося</h2>
         <ul class="about-list">
-          <li>
+          <li class="about-group">
             <img
               src="./image/box-1.jpg"
               alt="Програміст друкує код"
               width="370"
             >
           </li>
-          <li>
+          <li class="about-group">
             <img
               src="./image/box-2.jpg"
               alt="Дизайнер розробляє інтерфейс"
               width="370"
             >
           </li>
-          <li>
+          <li class="about-group">
             <img
               src="./image/box-3.jpg"
               alt="Дизайнер підберає палітру"
@@ -102,35 +106,38 @@
 
       <section class="team section">
       <div class="container">
+
         <h2 class="team-title">Наша команда</h2>
         
         <ul class="team-list">
-          <div class="member-group">
+          
           <li class="team-member">
             <img src="./image/img-1.jpg" alt="Ігор Дем'яненко" width="270" >
+            <div class="team-content">
             <h3 class="name">Ігор Дем'яненко</h3>
-            <p class="position">Product Designer</p>
+            <p class="position">Product Designer</p></div>
           </li>
-          </div>
-
-          <div class="member-group">
+          
           <li class="team-member">
             <img src="./image/img-2.jpg" alt="Ольга Рєпіна" width="270" >
+            <div class="team-content">
             <h3 class="name">Ольга Рєпіна</h3>
-            <p class="position">Frontend Developer</p>
-          </li></div>
-          <div class="member-group">
+            <p class="position">Frontend Developer</p></div>
+          </li>
+          
           <li class="team-member">
             <img src="./image/img-3.jpg" alt="Микола Тарасов" width="270" >
+            <div class="team-content">
             <h3 class="name">Микола Тарасов</h3>
-            <p class="position">Marketing</p>
-          </li></div>
-          <div class="member-group">
+            <p class="position">Marketing</p></div>
+          </li>
+         
           <li class="team-member">
             <img src="./image/img-4.jpg" alt="Михайло Єрмаков" width="270" >
+            <div class="team-content">
             <h3 class="name">Михайло Єрмаков</h3>
-            <p class="position">UI Designer</p>
-          </li> </div>
+            <p class="position">UI Designer</p></div>
+          </li> 
         </ul>
         </div>
       </section>
